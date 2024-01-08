@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfSigner", "PdfSigner.csproj", "{0A44F898-726B-4EDE-8A52-0D2D517890E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A44F898-726B-4EDE-8A52-0D2D517890E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A44F898-726B-4EDE-8A52-0D2D517890E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A44F898-726B-4EDE-8A52-0D2D517890E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A44F898-726B-4EDE-8A52-0D2D517890E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3CFEC81-6B92-4473-9D92-2AC1304AE94D}
+	EndGlobalSection
+EndGlobal
