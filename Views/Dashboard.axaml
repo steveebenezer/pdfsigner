@@ -4,16 +4,40 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="PdfSigner.Views.Dashboard">
-  <DockPanel>
-    <Border
-      DockPanel.Dock="Top"
-      >
-      <TextBlock>Header</TextBlock>
+  <DockPanel LastChildFill="True">
+    <Border Padding="10 0" Height="50" Background="SkyBlue" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Top">
+      <DockPanel>
+        <Button>Sign in</Button>
+        <Button>Settings</Button>
+      </DockPanel>
     </Border>
-    <TextBlock>Hello World</TextBlock>
-    <Border
-      DockPanel.Dock="Bottom">
-      <TextBlock>Footer</TextBlock>
+    <Border Padding="10 0" Height="25" Background="LemonChiffon" BorderBrush="Black" BorderThickness="1" DockPanel.Dock="Bottom">
+      <DockPanel>
+        <TextBlock Foreground="Black">Status</TextBlock>
+        <ProgressBar Margin="20 0" />
+      </DockPanel>
+    </Border>
+    <Border Margin="10" Background="White">
+      <StackPanel>
+        <DockPanel>
+          <Button Margin="0 0 10 5" Content="Select input" Name="InputSourceButton"></Button>
+          <Button Margin="0 0 10 5" Content="Select output" Name="OutputDestinationButton"></Button>  
+        </DockPanel>
+        <Border Margin="0 0 10 5" Height="200" Background="WhiteSmoke" BorderBrush="Black" BorderThickness="1" Padding="5">
+          <StackPanel>
+            <TextBlock>
+              Debug Info:
+            </TextBlock>
+            <TextBlock>
+              ---------------------------------------------------------------------------------------------------------------------------
+            </TextBlock>
+          </StackPanel>
+        </Border>
+        <DockPanel>
+          <Button Margin="0 0 10 5">Sign</Button>
+          <Button Margin="0 0 10 5">Upload</Button>  
+        </DockPanel>
+      </StackPanel>
     </Border>
   </DockPanel>
 </UserControl>
